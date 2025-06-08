@@ -1,0 +1,68 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #1f1f1f;
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.site-title {
+  margin: 0;
+  font-size: 1.8rem;
+}
+.tagline {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #bbbbbb;
+}
+.story-card {
+  background-color: #222;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+.story-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 1rem 0;
+}
+.unlock-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #ff4c4c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.unlock-btn:hover {
+  background-color: #e63b3b;
+}
+.footer {
+  margin-top: 4rem;
+  padding: 1rem;
+  text-align: center;
+  color: #888;
+}
